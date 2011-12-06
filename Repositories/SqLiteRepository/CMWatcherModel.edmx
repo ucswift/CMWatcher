@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CMWatcherModel.Store" Alias="Self" Provider="System.Data.SQLite" ProviderManifestToken="ISO8601" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="CMWatcherModelStoreContainer">
+          <EntitySet Name="ConfigurationOptions" EntityType="CMWatcherModel.Store.ConfigurationOptions" store:Type="Tables" />
+          <EntitySet Name="ConnectionFailures" EntityType="CMWatcherModel.Store.ConnectionFailures" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="ConfigurationOptions">
+          <Key>
+            <PropertyRef Name="ConfigurationOptionId" />
+          </Key>
+          <Property Name="ConfigurationOptionId" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ModemIPAddress" Type="nvarchar" Nullable="false" />
+          <Property Name="ModemSignalPageUrl" Type="nvarchar" Nullable="false" />
+          <Property Name="ModemLogPageUrl" Type="nvarchar" Nullable="false" />
+          <Property Name="ModemUsername" Type="nvarchar" />
+          <Property Name="ModemPassword" Type="nvarchar" />
+          <Property Name="MonitorAddress" Type="nvarchar" Nullable="false" />
+          <Property Name="Profile" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="ConnectionFailures">
+          <Key>
+            <PropertyRef Name="ConnectionFailureId" />
+          </Key>
+          <Property Name="ConnectionFailureId" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StartTimestamp" Type="datetime" Nullable="false" />
+          <Property Name="EndTimestamp" Type="datetime" Nullable="false" />
+          <Property Name="ScreenShotsPath" Type="nvarchar" Nullable="false" />
+          <Property Name="Data" Type="nvarchar" Nullable="false" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CMWatcherModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="CMWatcherEntities">
+          <EntitySet Name="ConfigurationOptions" EntityType="CMWatcherModel.ConfigurationOptions" />
+          <EntitySet Name="ConnectionFailures" EntityType="CMWatcherModel.ConnectionFailures" />
+        </EntityContainer>
+        <EntityType Name="ConfigurationOptions">
+          <Key>
+            <PropertyRef Name="ConfigurationOptionId" />
+          </Key>
+          <Property Name="ConfigurationOptionId" Type="Int64" Nullable="false" />
+          <Property Name="ModemIPAddress" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="ModemSignalPageUrl" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="ModemLogPageUrl" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="ModemUsername" Type="String" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="ModemPassword" Type="String" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="MonitorAddress" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="Profile" Type="String" Nullable="true" /></EntityType>
+        <EntityType Name="ConnectionFailures">
+          <Key>
+            <PropertyRef Name="ConnectionFailureId" />
+          </Key>
+          <Property Name="ConnectionFailureId" Type="Int64" Nullable="false" />
+          <Property Name="StartTimestamp" Type="DateTime" Nullable="false" />
+          <Property Name="EndTimestamp" Type="DateTime" Nullable="false" />
+          <Property Name="ScreenShotsPath" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <Property Name="Data" Type="String" Nullable="false" /></EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="CMWatcherModelStoreContainer" CdmEntityContainer="CMWatcherEntities">
+          <EntitySetMapping Name="ConfigurationOptions">
+            <EntityTypeMapping TypeName="IsTypeOf(CMWatcherModel.ConfigurationOptions)">
+              <MappingFragment StoreEntitySet="ConfigurationOptions">
+                <ScalarProperty Name="Profile" ColumnName="Profile" />
+                <ScalarProperty Name="ConfigurationOptionId" ColumnName="ConfigurationOptionId" />
+                <ScalarProperty Name="ModemIPAddress" ColumnName="ModemIPAddress" />
+                <ScalarProperty Name="ModemSignalPageUrl" ColumnName="ModemSignalPageUrl" />
+                <ScalarProperty Name="ModemLogPageUrl" ColumnName="ModemLogPageUrl" />
+                <ScalarProperty Name="ModemUsername" ColumnName="ModemUsername" />
+                <ScalarProperty Name="ModemPassword" ColumnName="ModemPassword" />
+                <ScalarProperty Name="MonitorAddress" ColumnName="MonitorAddress" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ConnectionFailures">
+            <EntityTypeMapping TypeName="IsTypeOf(CMWatcherModel.ConnectionFailures)">
+              <MappingFragment StoreEntitySet="ConnectionFailures">
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="ConnectionFailureId" ColumnName="ConnectionFailureId" />
+                <ScalarProperty Name="StartTimestamp" ColumnName="StartTimestamp" />
+                <ScalarProperty Name="EndTimestamp" ColumnName="EndTimestamp" />
+                <ScalarProperty Name="ScreenShotsPath" ColumnName="ScreenShotsPath" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="CMWatcherModel">
+        <EntityTypeShape EntityType="CMWatcherModel.ConfigurationOptions" Width="1.5" PointX="0.75" PointY="0.75" Height="2.3648893229166665" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMWatcherModel.ConnectionFailures" Width="1.5" PointX="2.75" PointY="0.75" Height="1.787985026041667" IsExpanded="true" /></Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

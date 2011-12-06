@@ -1,0 +1,230 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{02E869EA-7C99-4E9B-BE14-A636B03E1F04}"
+	ProjectSection(SolutionItems) = preProject
+		Images\CMWatcher.ico = Images\CMWatcher.ico
+		Images\Icon.png = Images\Icon.png
+		Images\Icon.psd = Images\Icon.psd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D93225C9-E442-463C-A4C6-32B83BC467E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3B58CA9F-B7A5-4F82-9D73-8ACF8603446B}"
+	ProjectSection(SolutionItems) = preProject
+		Common\AssemblyInfo.cs = Common\AssemblyInfo.cs
+		Common\CMWatcher-Pub-Keyfile.snk = Common\CMWatcher-Pub-Keyfile.snk
+		Common\CMWatcher-PubPriv-Keyfile.snk = Common\CMWatcher-PubPriv-Keyfile.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{E96D6E47-4D5A-4045-9944-73152AA00BA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{0F0CEB74-A434-4D17-88C6-55C1102A32F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{DD14769D-7CE9-4321-AC25-CFD06D901ED6}"
+	ProjectSection(SolutionItems) = preProject
+		References\SQLite\System.Data.SQLite.dll = References\SQLite\System.Data.SQLite.dll
+		References\SQLite\System.Data.SQLite.Linq.dll = References\SQLite\System.Data.SQLite.Linq.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructureMap", "StructureMap", "{B30A55CF-BC59-456F-8873-EA6057CBCB2A}"
+	ProjectSection(SolutionItems) = preProject
+		References\StructureMap\StructureMap.dll = References\StructureMap\StructureMap.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{A69EA3B3-D775-4A9D-B8E7-D4F5DE9BA4DD}"
+	ProjectSection(SolutionItems) = preProject
+		Database\CMWatcher.db = Database\CMWatcher.db
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1F345F1C-0124-41AD-A98C-759D5C1DAE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log4net", "log4net", "{1A253622-428C-48F1-9E8A-DADD66FFA082}"
+	ProjectSection(SolutionItems) = preProject
+		References\log4net\log4net.dll = References\log4net\log4net.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{791C89DF-F211-48CF-9C7E-49817A78996E}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\EULA.rtf = Documents\EULA.rtf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{BA4582C5-CF7E-4EE9-A881-60462DED906F}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.CMWatcher.bat = Build\Build.CMWatcher.bat
+		Build\CMWatcher-Build.build = Build\CMWatcher-Build.build
+		Build\Create.Installer.bat = Build\Create.Installer.bat
+		Build\Run.SmartAssembly.bat = Build\Run.SmartAssembly.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{22FE85A7-0DE9-4303-A897-73508A9F71DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NAnt", "NAnt", "{B580D2C6-BDD9-45AF-8BF8-1958B3A3396F}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\NAnt\log4net.dll = Build\Tools\NAnt\log4net.dll
+		Build\Tools\NAnt\NAnt.CompressionTasks.dll = Build\Tools\NAnt\NAnt.CompressionTasks.dll
+		Build\Tools\NAnt\NAnt.CompressionTasks.xml = Build\Tools\NAnt\NAnt.CompressionTasks.xml
+		Build\Tools\NAnt\NAnt.Core.dll = Build\Tools\NAnt\NAnt.Core.dll
+		Build\Tools\NAnt\NAnt.Core.xml = Build\Tools\NAnt\NAnt.Core.xml
+		Build\Tools\NAnt\NAnt.DotNetTasks.dll = Build\Tools\NAnt\NAnt.DotNetTasks.dll
+		Build\Tools\NAnt\NAnt.DotNetTasks.xml = Build\Tools\NAnt\NAnt.DotNetTasks.xml
+		Build\Tools\NAnt\NAnt.exe = Build\Tools\NAnt\NAnt.exe
+		Build\Tools\NAnt\NAnt.exe.config = Build\Tools\NAnt\NAnt.exe.config
+		Build\Tools\NAnt\NAnt.MSNetTasks.dll = Build\Tools\NAnt\NAnt.MSNetTasks.dll
+		Build\Tools\NAnt\NAnt.MSNetTasks.xml = Build\Tools\NAnt\NAnt.MSNetTasks.xml
+		Build\Tools\NAnt\NAnt.NUnit.dll = Build\Tools\NAnt\NAnt.NUnit.dll
+		Build\Tools\NAnt\NAnt.NUnit.xml = Build\Tools\NAnt\NAnt.NUnit.xml
+		Build\Tools\NAnt\NAnt.NUnit1Tasks.dll = Build\Tools\NAnt\NAnt.NUnit1Tasks.dll
+		Build\Tools\NAnt\NAnt.NUnit1Tasks.xml = Build\Tools\NAnt\NAnt.NUnit1Tasks.xml
+		Build\Tools\NAnt\NAnt.NUnit2Tasks.dll = Build\Tools\NAnt\NAnt.NUnit2Tasks.dll
+		Build\Tools\NAnt\NAnt.NUnit2Tasks.xml = Build\Tools\NAnt\NAnt.NUnit2Tasks.xml
+		Build\Tools\NAnt\NAnt.SourceControlTasks.dll = Build\Tools\NAnt\NAnt.SourceControlTasks.dll
+		Build\Tools\NAnt\NAnt.SourceControlTasks.xml = Build\Tools\NAnt\NAnt.SourceControlTasks.xml
+		Build\Tools\NAnt\NAnt.VisualCppTasks.dll = Build\Tools\NAnt\NAnt.VisualCppTasks.dll
+		Build\Tools\NAnt\NAnt.VisualCppTasks.xml = Build\Tools\NAnt\NAnt.VisualCppTasks.xml
+		Build\Tools\NAnt\NAnt.VSNetTasks.dll = Build\Tools\NAnt\NAnt.VSNetTasks.dll
+		Build\Tools\NAnt\NAnt.VSNetTasks.xml = Build\Tools\NAnt\NAnt.VSNetTasks.xml
+		Build\Tools\NAnt\NAnt.Win32Tasks.dll = Build\Tools\NAnt\NAnt.Win32Tasks.dll
+		Build\Tools\NAnt\NAnt.Win32Tasks.xml = Build\Tools\NAnt\NAnt.Win32Tasks.xml
+		Build\Tools\NAnt\NAnt.xml = Build\Tools\NAnt\NAnt.xml
+		Build\Tools\NAnt\NDoc.Documenter.NAnt.dll = Build\Tools\NAnt\NDoc.Documenter.NAnt.dll
+		Build\Tools\NAnt\scvs.exe = Build\Tools\NAnt\scvs.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SA", "SA", "{3F044681-9162-4D75-B694-871A41A4BEDF}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\SA\SARunner.exe = Build\Tools\SA\SARunner.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{95A9B2D1-107A-4FF4-84BD-094D8590146F}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.Console.dll = Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.Console.dll
+		Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.dll = Build\Tools\NAnt\lib\ICSharpCode.SharpCvsLib.dll
+		Build\Tools\NAnt\lib\ICSharpCode.SharpZipLib.dll = Build\Tools\NAnt\lib\ICSharpCode.SharpZipLib.dll
+		Build\Tools\NAnt\lib\NUnitCore.dll = Build\Tools\NAnt\lib\NUnitCore.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net", "net", "{EDCF3602-271D-47BA-9187-42BC47C65079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0", "2.0", "{17507AC0-CF81-493C-A661-796A158F13D0}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\NAnt\lib\net\2.0\NDoc.Core.dll = Build\Tools\NAnt\lib\net\2.0\NDoc.Core.dll
+		Build\Tools\NAnt\lib\net\2.0\NDoc.Documenter.Msdn.dll = Build\Tools\NAnt\lib\net\2.0\NDoc.Documenter.Msdn.dll
+		Build\Tools\NAnt\lib\net\2.0\NDoc.ExtendedUI.dll = Build\Tools\NAnt\lib\net\2.0\NDoc.ExtendedUI.dll
+		Build\Tools\NAnt\lib\net\2.0\nunit.core.dll = Build\Tools\NAnt\lib\net\2.0\nunit.core.dll
+		Build\Tools\NAnt\lib\net\2.0\nunit.framework.dll = Build\Tools\NAnt\lib\net\2.0\nunit.framework.dll
+		Build\Tools\NAnt\lib\net\2.0\nunit.util.dll = Build\Tools\NAnt\lib\net\2.0\nunit.util.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{D914397F-0FD6-4F18-9C0C-B6D460493B30}"
+	ProjectSection(SolutionItems) = preProject
+		References\NUnit\nunit.framework.dll = References\NUnit\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMWatcher.Client", "Client\CMWatcher.Client.csproj", "{F39AC939-634F-49AE-9DC5-C6680A67EA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMWatcher.Model", "Core\Model\CMWatcher.Model.csproj", "{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMWatcher.Services", "Core\Services\CMWatcher.Services.csproj", "{E67EC3C4-0A50-4226-BB27-B0FF73C02895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMWatcher.Repositories.SqLiteRepository", "Repositories\SqLiteRepository\CMWatcher.Repositories.SqLiteRepository.csproj", "{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMWatcher.Common", "Core\Common\CMWatcher.Common.csproj", "{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "Tests\TestHarness\TestHarness.csproj", "{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{34E8B09D-5A16-4315-9053-62D495407EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VNManager", "VNManager", "{EB7267A0-A495-46DC-BB06-08401B6E65E2}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Tools\VNManager\VNManager.exe = Build\Tools\VNManager\VNManager.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Debug|x86.ActiveCfg = Debug|x86
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Debug|x86.Build.0 = Debug|x86
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Release|x86.ActiveCfg = Release|x86
+		{F39AC939-634F-49AE-9DC5-C6680A67EA11}.Release|x86.Build.0 = Release|x86
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Debug|x86.ActiveCfg = Debug|x86
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Debug|x86.Build.0 = Debug|x86
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Release|x86.ActiveCfg = Release|x86
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9}.Release|x86.Build.0 = Release|x86
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Debug|x86.ActiveCfg = Debug|x86
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Debug|x86.Build.0 = Debug|x86
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Release|x86.ActiveCfg = Release|x86
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895}.Release|x86.Build.0 = Release|x86
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Debug|x86.ActiveCfg = Debug|x86
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Debug|x86.Build.0 = Debug|x86
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Release|x86.ActiveCfg = Release|x86
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD}.Release|x86.Build.0 = Release|x86
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Debug|x86.ActiveCfg = Debug|x86
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Debug|x86.Build.0 = Debug|x86
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Release|x86.ActiveCfg = Release|x86
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029}.Release|x86.Build.0 = Release|x86
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Debug|x86.ActiveCfg = Debug|x86
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Debug|x86.Build.0 = Debug|x86
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Release|x86.ActiveCfg = Release|x86
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199}.Release|x86.Build.0 = Release|x86
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Debug|x86.ActiveCfg = Debug|x86
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Debug|x86.Build.0 = Debug|x86
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Release|x86.ActiveCfg = Release|x86
+		{34E8B09D-5A16-4315-9053-62D495407EE6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9EA1BDD-C45A-4584-A434-CA457DEAC2E9} = {D93225C9-E442-463C-A4C6-32B83BC467E4}
+		{E67EC3C4-0A50-4226-BB27-B0FF73C02895} = {D93225C9-E442-463C-A4C6-32B83BC467E4}
+		{91C9C1D9-60A3-4D4F-9080-F71FCAA26029} = {D93225C9-E442-463C-A4C6-32B83BC467E4}
+		{DD14769D-7CE9-4321-AC25-CFD06D901ED6} = {E96D6E47-4D5A-4045-9944-73152AA00BA8}
+		{B30A55CF-BC59-456F-8873-EA6057CBCB2A} = {E96D6E47-4D5A-4045-9944-73152AA00BA8}
+		{1A253622-428C-48F1-9E8A-DADD66FFA082} = {E96D6E47-4D5A-4045-9944-73152AA00BA8}
+		{D914397F-0FD6-4F18-9C0C-B6D460493B30} = {E96D6E47-4D5A-4045-9944-73152AA00BA8}
+		{0B700E99-50AB-4024-8BBD-8261F1CBB3CD} = {0F0CEB74-A434-4D17-88C6-55C1102A32F8}
+		{38FFD001-7BE8-4E21-B0A4-D1ADA40E9199} = {1F345F1C-0124-41AD-A98C-759D5C1DAE23}
+		{34E8B09D-5A16-4315-9053-62D495407EE6} = {1F345F1C-0124-41AD-A98C-759D5C1DAE23}
+		{22FE85A7-0DE9-4303-A897-73508A9F71DA} = {BA4582C5-CF7E-4EE9-A881-60462DED906F}
+		{B580D2C6-BDD9-45AF-8BF8-1958B3A3396F} = {22FE85A7-0DE9-4303-A897-73508A9F71DA}
+		{3F044681-9162-4D75-B694-871A41A4BEDF} = {22FE85A7-0DE9-4303-A897-73508A9F71DA}
+		{EB7267A0-A495-46DC-BB06-08401B6E65E2} = {22FE85A7-0DE9-4303-A897-73508A9F71DA}
+		{95A9B2D1-107A-4FF4-84BD-094D8590146F} = {B580D2C6-BDD9-45AF-8BF8-1958B3A3396F}
+		{EDCF3602-271D-47BA-9187-42BC47C65079} = {95A9B2D1-107A-4FF4-84BD-094D8590146F}
+		{17507AC0-CF81-493C-A661-796A158F13D0} = {EDCF3602-271D-47BA-9187-42BC47C65079}
+	EndGlobalSection
+EndGlobal

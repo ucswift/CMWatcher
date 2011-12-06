@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<iasettings>
+  <projectproperties>
+    <manufacturer>Shawn</manufacturer>
+    <productname>CMWatcher</productname>
+    <productversion>1.0.0006.1134</productversion>
+    <productcode>{f4a78059-2099-460f-a6e2-4113da261086}</productcode>
+    <upgradecode>{f77241c7-309c-4ebc-bc79-bba25270d413}</upgradecode>
+    <language>0</language>
+    <languagename>English</languagename>
+  </projectproperties>
+  <summary>
+    <title>CMWatcher</title>
+    <subject>CMWatcher</subject>
+    <author>Shawn</author>
+    <summarycomments>CMWatcher</summarycomments>
+    <revisioncode>{dff1f293-ef97-4838-9fe2-a7fe5cf06968}</revisioncode>
+    <elevation>0</elevation>
+  </summary>
+  <addremove>
+    <publishername>Shawn</publishername>
+    <contactname>Shawn</contactname>
+    <helplink>http://www.mywebsite.com</helplink>
+    <productupdatelink>http://www.mywebsite.com</productupdatelink>
+    <addremovecomments>All Rights Reserved</addremovecomments>
+    <iconfile />
+  </addremove>
+  <codegen>
+    <generateincludefiles>0</generateincludefiles>
+    <generatefeatures>1</generatefeatures>
+    <refreshscript>0</refreshscript>
+  </codegen>
+  <compilervariables>
+    <variables />
+  </compilervariables>
+  <build>
+    <buildtype>0</buildtype>
+  </build>
+  <files>
+    <filedetails filename="G:\Projects\CMWatcher\Client\bin\x86\Debug\WaveTech.CMWatcher.Client.exe" targetlocation="$TARGETDIR$" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="1" runprogram="1" installfilecommand="1" />
+  </files>
+  <dependencies>
+    <dependencydetails filename="G:\Projects\CMWatcher\Core\Services\bin\x86\Debug\WaveTech.CMWatcher.Services.dll" targetlocation="$TARGETDIR$" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\References\StructureMap\StructureMap.dll" targetlocation="GAC" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\Repositories\SqLiteRepository\bin\x86\Debug\WaveTech.CMWatcher.Repositories.SqLiteRepository.dll" targetlocation="$TARGETDIR$" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\Core\Common\bin\x86\Debug\WaveTech.CMWatcher.Common.dll" targetlocation="$TARGETDIR$" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\Core\Model\bin\x86\Debug\WaveTech.CMWatcher.Model.dll" targetlocation="$TARGETDIR$" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\References\log4net\log4net.dll" targetlocation="$TARGETDIR$" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\References\SQLite\System.Data.SQLite.dll" targetlocation="GAC" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+    <dependencydetails filename="G:\Projects\CMWatcher\References\SQLite\System.Data.SQLite.Linq.dll" targetlocation="GAC" generatenativeimage="0" registerassembly="0" runinstallerclass="0" createshortcut="0" runprogram="0" installfilecommand="0" />
+  </dependencies>
+  <dialogtheme>
+    <themetype>0</themetype>
+    <themename>Official</themename>
+  </dialogtheme>
+  <authenticode>
+    <sign>0</sign>
+    <certificatefile />
+    <keyfile />
+    <productinfourl />
+    <authpassword />
+    <timestampurl />
+  </authenticode>
+  <compression>
+    <compressiontype>4</compressiontype>
+    <encrypt>0</encrypt>
+    <compressionpassword />
+  </compression>
+  <output>
+    <outputtype>0</outputtype>
+    <location />
+    <filename />
+    <calculatefilehash>0</calculatefilehash>
+    <refreshrevisioncode>1</refreshrevisioncode>
+  </output>
+</iasettings>
